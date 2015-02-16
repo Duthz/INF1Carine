@@ -1,0 +1,71 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel= "stylesheet" type = "text/css" href="bootstrap.css">
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Votre commande</legend>
+    
+            <!-- Client input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="idClient">Identifiant client</label>
+              <div class="col-md-9">
+                <input id="idClient" name="idClient" type="text" placeholder="Votre ID" class="form-control" required>
+              </div>
+            </div>
+    
+            <!-- Nom input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="nom">Nom</label>
+              <div class="col-md-9">
+                <input id="nom" name="nom" type="text" placeholder="Votre nom" class="form-control" required>
+              </div>
+            </div>
+			
+			<!-- Prénom input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="prenom">Prénom</label>
+              <div class="col-md-9">
+                <input id="prenom" name="prenom" type="text" placeholder="Votre prénom" class="form-control" required>
+              </div>
+            </div>
+			
+			<!-- Ref input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="ref">Référence du produit</label>
+              <div class="col-md-9">
+                <input id="ref" name="ref" type="text" placeholder="Référence" class="form-control" required>
+              </div>
+            </div>
+			
+			<!-- Quantité input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="qteCde">Quantité désirée</label>
+              <div class="col-md-9">
+                <input id="qteCde" name="qteCde" type="text" placeholder="Quantité " class="form-control" required>
+              </div>
+            </div>
+			
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+
+</body>
+</html>
